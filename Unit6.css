@@ -1,0 +1,37 @@
+header {
+  height: 50px;
+  background-color:black;
+}
+main { text-align: auto; background-color: black; }
+footer { text-transform: none;
+}
+/* Try and organize in order to be more physically appealing */
+.luis {
+  width: 550px;
+  margin: auto;
+}
+.note {
+    margin: 0;}
+h1 {
+font-family: 'lobster',cursive; color: white; font-weight: fantasy;
+font-size: 50px; text-align: center; }
+img { width: 100%;
+ }
+.nissan { color: black; }
+.no { color: white; font-family: impact; border-color: white;
+border-style: dashed;}
+.luisv2{ font-family: impact; font-size: 30px; }
+.luisv1 { text-align: center; font-size: 20px; font-family: impact; color: green; }
+h2 { text-align: center; }
+a:link { color: white; }
+a:visited { color: brown; }
+a:hover { color:green }
+a:active { color: red; }
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+@media screen and (min-width:375px) { body{ font-family: impact; background-color: blue;}}
+@media screen and (min-width:768px) { *{ font-family: 'lobster',cursive;font-size: 20px;} }
